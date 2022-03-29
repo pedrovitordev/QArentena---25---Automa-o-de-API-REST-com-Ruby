@@ -9,3 +9,9 @@ Funcionalidade: Users
         Quando faço uma requisição GET para o serviço Users
         Então o serviço Users deve responder com 200
         E retorna a lista de usuários
+
+    @get_user
+        Cenário:Validar GET API Users  com id 
+            Quando faço uma requisição GET para o serviço Users passando id
+            Então o serviço Users deve responder com 200
+            E retorna o usuário
