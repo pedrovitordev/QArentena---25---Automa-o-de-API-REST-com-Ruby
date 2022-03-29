@@ -1,11 +1,11 @@
-#language: pt
+#language: pt 
 
 @users
-Funcionalide: Users 
+Funcionalidade: Users 
     validar operação da API Users
 
     @get_users
     Cenário:Validar GET API Users   
-        Quando faço uma requisição GET para o serviço Users
-        Então o serviço Users deve responder com 200
-        E retorna a lista de usuários
+        Dado faço uma requisição GET para o serviço Users
+        Quando o serviço Users deve responder com 200
+        Então retorna a lista de usuários
