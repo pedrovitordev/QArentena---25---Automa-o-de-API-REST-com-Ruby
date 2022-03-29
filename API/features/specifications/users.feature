@@ -6,6 +6,6 @@ Funcionalidade: Users
 
     @get_users
     Cenário:Validar GET API Users   
-        Dado faço uma requisição GET para o serviço Users
-        Quando o serviço Users deve responder com 200
-        Então retorna a lista de usuários
+        Quando faço uma requisição GET para o serviço Users
+        Então o serviço Users deve responder com 200
+        E retorna a lista de usuários
