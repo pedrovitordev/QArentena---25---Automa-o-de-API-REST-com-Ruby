@@ -13,5 +13,10 @@ module Rest
         def get_user(id)
             self.class.get("/api/v1/Activities/#{id}")
         end
+
+
+        def post_users(user)
+            self.class.post('/api/v1/Activities', body: user.to_json)
+        end
     end
 end

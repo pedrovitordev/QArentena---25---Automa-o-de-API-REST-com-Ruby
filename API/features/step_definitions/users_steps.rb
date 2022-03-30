@@ -18,3 +18,14 @@ end
 Então('retorna o usuário') do
   #expect(@request_users.parsed_response['ID']).to eql @id
 end
+
+Quando('faço uma requisição POST para o serviço Users') do
+    @payload_users = build(:user).user_hash
+    @request_users = users.post_users(@payload_users)
+end
+
+Então('retorna o usuário criado') do
+    #expect(@request_users['ID']).to eql @payload_users[:ID]
+    #expect(@request_users['UserName']).to eql @payload_users[:UserName]
+    #expect(@request_users['Password'].to_i).to eql @payload_users[:Password]
+end
