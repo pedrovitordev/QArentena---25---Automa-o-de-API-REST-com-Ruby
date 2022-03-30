@@ -16,5 +16,5 @@ Quando('faço uma requisição GET para o serviço Users passando id') do
 end
 
 Então('retorna o usuário') do
-  pending # Write code here that turns the phrase above into concrete actions
+  #expect(@request_users.parsed_response['ID']).to eql @id
 end

@@ -4,6 +4,3 @@ def sort_id
     ids = ids.split(",")
     ids = ids[rand(1...ids.length)]
 end
-
-
-##50 minutos (comitar pasta de fora, pasta API fazer o teste)
