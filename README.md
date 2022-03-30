@@ -12,7 +12,7 @@
 
 ## 👀 Sobre
 
-Curso com o principal objetivo de automatizar alguns testes de API REST através do verbos HTTP <br>
+Curso com o principal objetivo de automatizar alguns testes de API REST através dos verbos HTTP <br>
 Link do swagger: http://fakerestapi.azurewebsites.net/index.html
 
 ---
